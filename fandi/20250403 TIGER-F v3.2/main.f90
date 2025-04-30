@@ -3,7 +3,7 @@
 !       /             /|       |  Author  : Zi-Hsuan Wei                                                 
 !      /             / |       |  Version : 3.2                                                          
 !     /____________ /  |       |  Mod by  : Fandi D. Suprianto                              
-!     |  |         |   |       |  Web     : http://smetana.me.ntust.edu.tw/                                    
+!     |  |         |   |       |  Web     : https://mestaiwantech.com                                    
 !     |  |         |   |                                          
 !     |  | x=y=z=0 |   |                                           
 !     |  |_________|___|x=1                                        
