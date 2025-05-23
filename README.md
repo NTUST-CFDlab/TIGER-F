@@ -7,8 +7,8 @@
 - Employs:
     - The **projection method** is used to resolve the pressure–velocity coupling.
     - **QUICK scheme** is applied for the convective term.
+    - **Second-order (or higher) Adams–Bashforth** method is used for temporal advancement.
     - **Red–Black SOR (RB-SOR)** is employed as the pressure solver.
-    - **Second-order Adams–Bashforth** method is used for temporal advancement.
     - **Large Eddy Simulation (LES)** with a constant-coefficient **Smagorinsky–Lilly** model is used for turbulence modeling.
     - **Hybrid OpenACC/MPI** parallelization enables both **CPU and GPU** computations.
 
