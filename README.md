@@ -1,4 +1,4 @@
-This repository is a collection of TIGER-F versions developed by different lab members, each tailored to specific FSI applications or case studies. Users should navigate to the appropriate subdirectory or branch corresponding to the author or project of interest. Please note that each version may have case-specific modifications and features.
+*This repository is a collection of TIGER-F versions developed by different lab members, each tailored to specific FSI applications or case studies. Users should navigate to the appropriate subdirectory or branch corresponding to the author or project of interest. Please note that each version may have case-specific modifications and features.*
 
 # TIGER-F
 
