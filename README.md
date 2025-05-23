@@ -1,3 +1,5 @@
+This repository is a collection of TIGER-F versions developed by different lab members, each tailored to specific FSI applications or case studies. Users should navigate to the appropriate subdirectory or branch corresponding to the author or project of interest. Please note that each version may have case-specific modifications and features.
+
 # TIGER-F
 
 **TIGER-F** is an in-house Fortran-based numerical solver utilizing the Direct Forcing Immersed Boundary (DFIB) method for simulating incompressible fluid–structure interaction (FSI) problems in a 3D domain. The code has been successfully applied to a variety of FSI studies involving both static and moving solid bodies.
