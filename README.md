@@ -28,15 +28,22 @@ This makes TIGER-F highly portable and scalable for both high-performance comput
 - Time dependant CFD simulations
 - General 3D rigid body FSI simulation in turbulent flows
 
+## Contributors
+
+Prof. Ming-Jyh Chern, Dedy Zulhidayat Noor, Zi-Hsuan Wei, Jing-Ming Chen, Desta Goytom Tewolde, Fandi Dwiputra Suprianto, Adhika Satyadharma, Ming-Fang Kuan, Tai-Yi Chou, Hsi-Yu Cheng, Bo-Jing Chiou
+
 ## How to Cite
 
 If you use TIGER-F in your research, please cite relevant publications such as:
 
-- Noor et al., 2009 – An immersed boundary method to solve fluid–solid interaction problems
-- Tewolde et al., 2023 – Flow around Savonius turbines
+- Suprianto et al., 2025 – An enhanced analytical-based geometry processor
 - Chern et al., 2025 – Passive FSI with airfoils
 - Suprianto et al., 2024 – Parametric study of magnus VAWT blade
-- Suprianto et al., 2025 – An enhanced analytical-based geometry processor
+- Tewolde et al., 2023 – Flow around Savonius turbines
+- Chern et al., 2018 - VIV of a circular cylinder adjacent to plane boundary layer (2D)
+- Chern et al., 2015 - Flow past two counter rotating cylinders (2D)
+- Chern et al., 2014 - VIV of a circular cylinder using DFIB method (2D)
+- Noor et al., 2009 – An immersed boundary method to solve fluid–solid interaction problems (2D)
 
 ## License & Disclaimer
 
