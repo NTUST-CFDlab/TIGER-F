@@ -13,8 +13,8 @@ real*8  :: uc_,vc_,wc_, pts, FlucS_u, FlucS_v, FlucS_w, FlucS_Sum
 
 
    pts = 1.d0/(istep2+1)
-   !$OMP PARALLEL DO PRIVATE(i,j) collapse(nclps)
-   !$acc parallel loop independent collapse(3) gang vector
+   !$OMP PARALLEL DO PRIVATE(i,j,uc_,vc_,wc_,FlucS_u,FlucS_v,FlucS_w,FlucS_Sum) collapse(nclps)
+   !$acc parallel loop independent private(uc_,vc_,wc_,FlucS_u,FlucS_v,FlucS_w,FlucS_Sum) collapse(3) gang vector
     do k=istart,iend
     do j=1,ny; do i=1,nx
       uc_ = 0.5d0*( u(i,j,k)+u(i-1,j,k) )
