@@ -14,6 +14,9 @@
     - **Large Eddy Simulation (LES)** with a constant-coefficient **Smagorinsky–Lilly** model is used for turbulence modeling.
     - **Hybrid OpenACC/MPI** parallelization enables both **CPU and GPU** computations.
 
+- Supports both constant time-step and constant CFL time-stepping modes.
+- Performs time averaging of turbulence-related variables.
+
 ## CPU and GPU Parallelization
 
 TIGER-F supports hybrid parallel computing environments:
