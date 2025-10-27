@@ -257,7 +257,7 @@ close(30)
       u_TimeAvg(i,j,k) = Qout(i,j,k,2)
       v_TimeAvg(i,j,k) = Qout(i,j,k,3)
       w_TimeAvg(i,j,k) = Qout(i,j,k,4)
-			RS_ww(i,j,k) = Qout(i,j,k,5)  	  
+		  RS_ww(i,j,k) = Qout(i,j,k,5)  	  
 
    enddo; enddo; enddo 
 
