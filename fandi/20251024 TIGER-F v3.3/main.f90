@@ -845,7 +845,8 @@ do while (time <= total_time)
 ! ------------------------------- Create output files -------------------------------
 
 !call nvtxStartRange("output files")
-	if ((filer3d=='ON' .AND. time >= next_filer3d-1.0d-10) .OR. (filer2d/='OFF' .AND. time >= next_filer2d-1.0d-10) .OR. &
+	if ((filer3d=='ON'  .AND. time > startfiler3d_time-dt .AND. time >= next_filer3d-1.0d-10) .OR. &
+		(filer2d/='OFF' .AND. time > startfiler2d_time-dt .AND. time >= next_filer2d-1.0d-10) .OR. &
 		(filer_cp=='ON' .AND. time >= next_filerCp-1.0d-10) .OR. time >= next_backup-1.0d-10) then        			!   modified 17_10_2024
 	!$acc update self(u(:,:,istart:iend),v(:,:,istart:iend),w(:,:,istart:iend),p(:,:,istart:iend),ETA)
           
