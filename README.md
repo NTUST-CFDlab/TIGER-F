@@ -12,7 +12,8 @@
     - **Second-order (or higher) Adams–Bashforth** method is used for temporal advancement.
     - **Red–Black SOR (RB-SOR)** is employed as the pressure solver.
     - **Large Eddy Simulation (LES)** with a constant-coefficient **Smagorinsky–Lilly** model is used for turbulence modeling.
-    - **Hybrid OpenACC/MPI** parallelization enables both **CPU and GPU** computations.
+    - **Hybrid OpenMP+MPI** parallelization for **CPU** computations.
+    - **Hybrid OpenACC+MPI** parallelization enables both **CPU and GPU** computations.
 
 - Supports both constant time-step and constant CFL time-stepping modes.
 - Performs time averaging of turbulence-related variables.
