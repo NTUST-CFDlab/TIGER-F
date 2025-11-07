@@ -372,7 +372,7 @@ MODULE variables
     !real*8, dimension(:,:,:), allocatable		     :: u_TimeAvg, v_TimeAvg, w_TimeAvg, TKE, p_TimeAvg		!  INTEL compiler
 
     real*8, dimension(:,:,:), allocatable, pinned    :: RS_uu, RS_uv, RS_uw, RS_vv, RS_vw, RS_ww
-    ! real*8, dimension(:,:,:), allocatable    		 :: RS_uu, RS_uv, RS_uw, RS_vv, RS_vw, RS_ww
+    !real*8, dimension(:,:,:), allocatable    		 :: RS_uu, RS_uv, RS_uw, RS_vv, RS_vw, RS_ww
 
     real*8, dimension(-1:nx+2,-1:ny+2,-1:nz+2)       :: u1, v1, w1
     
