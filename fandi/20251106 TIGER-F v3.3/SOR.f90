@@ -232,7 +232,7 @@ do while (pChangeMax_>zeta .AND. ik < itmax)
     !>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
-    !$OMP PARALLEL DO PRIVATE(pNEW) REDUCTION(max : pChangeMAX) COLLAPSE(3)
+    !$OMP PARALLEL DO PRIVATE(pNEW) REDUCTION(max : pChangeMAX) COLLAPSE(2)
     do k=istart,iend 		
         do j=1,ny
         
@@ -454,5 +454,6 @@ end subroutine SOR
     
 
 ! end subroutine gauss_seidel
+
 
 
