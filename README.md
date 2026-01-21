@@ -38,15 +38,15 @@ Prof. Ming-Jyh Chern, Dedy Zulhidayat Noor, Zi-Hsuan Wei, Jing-Ming Chen, Desta 
 
 If you use TIGER-F in your research, please cite relevant publications such as:
 
-- [Hailu et al., 2026 - VIV energy harvesting using a spinning cylinder] (https://doi.org/10.1016/j.apor.2025.104914)
-- [Suprianto et al., 2025 – An enhanced analytical-based geometry processor] (https://doi.org/10.1016/j.compfluid.2025.106602)
-- [Chern et al., 2025 – Passive FSI with airfoils] (https://doi.org/10.1016/j.jfluidstructs.2024.104255)
-- [Suprianto et al., 2024 – Parametric study of magnus VAWT blade] (https://doi.org/10.1063/5.0189589)
-- [Tewolde et al., 2023 – Flow around Savonius turbines] (https://doi.org/10.1002/fld.5141)
-- [Chern et al., 2018 - VIV of a circular cylinder adjacent to plane boundary layer (2D)] (https://doi.org/10.1017/jmech.2017.55)
-- [Chern et al., 2015 - Flow past two counter rotating cylinders (2D)] (https://doi.org/10.6119/JMST-015-0617-1)
-- [Chern et al., 2014 - VIV of a circular cylinder using DFIB method (2D)] (https://doi.org/10.1016/j.jweia.2014.08.015)
-- [Noor et al., 2009 – An immersed boundary method to solve fluid–solid interaction problems (2D)] (https://doi.org/10.1007/s00466-009-0384-5)
+- [Hailu et al., 2026 - VIV energy harvesting using a spinning cylinder](https://doi.org/10.1016/j.apor.2025.104914)
+- [Suprianto et al., 2025 – An enhanced analytical-based geometry processor](https://doi.org/10.1016/j.compfluid.2025.106602)
+- [Chern et al., 2025 – Passive FSI with airfoils](https://doi.org/10.1016/j.jfluidstructs.2024.104255)
+- [Suprianto et al., 2024 – Parametric study of magnus VAWT blade](https://doi.org/10.1063/5.0189589)
+- [Tewolde et al., 2023 – Flow around Savonius turbines](https://doi.org/10.1002/fld.5141)
+- [Chern et al., 2018 - VIV of a circular cylinder adjacent to plane boundary layer (2D)](https://doi.org/10.1017/jmech.2017.55)
+- [Chern et al., 2015 - Flow past two counter rotating cylinders (2D)](https://doi.org/10.6119/JMST-015-0617-1)
+- [Chern et al., 2014 - VIV of a circular cylinder using DFIB method (2D)](https://doi.org/10.1016/j.jweia.2014.08.015)
+- [Noor et al., 2009 – An immersed boundary method to solve fluid–solid interaction problems (2D)](https://doi.org/10.1007/s00466-009-0384-5)
 
 ## License & Disclaimer
 
