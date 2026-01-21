@@ -27,7 +27,7 @@ This makes TIGER-F highly portable and scalable for both high-performance comput
 
 ## Applications
 
-- Time dependant CFD simulations
+- Time dependent CFD simulations
 - General 3D rigid body FSI simulation in turbulent flows
 
 ## Contributors
