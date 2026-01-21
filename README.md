@@ -20,7 +20,7 @@
 
 TIGER-F supports hybrid parallel computing environments:
 - **Multicore CPU support** via **OpenMP**/**OpenACC** combined with MPI.
-- **GPU acceleration** via **OpenACC** with MPI for distributed computing.
+- **Multi-GPU acceleration** via **OpenACC** with MPI for distributed computing.
 
 This makes TIGER-F highly portable and scalable for both high-performance computing clusters and modern GPU-based platforms.
 
