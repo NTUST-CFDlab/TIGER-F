@@ -13,6 +13,7 @@
     - **Red–Black SOR (RB-SOR)** is employed as the pressure solver.
     - **Large Eddy Simulation (LES)** with a constant-coefficient **Smagorinsky–Lilly** model is used for turbulence modeling.
 
+- Solid domain construction via ray casting from STL geometry files.
 - Supports both constant time-step and constant CFL time-stepping modes.
 - Performs time averaging of turbulence-related variables.
 
