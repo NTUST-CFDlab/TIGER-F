@@ -1407,7 +1407,7 @@ i = INT((nx+1)/2.)
    !$OMP END PARALLEL
 
 
-   write(filename,'(A,I6.6)')'wall_',NINT(time/filer2d_int)
+   write(filename,'(A,I6.6)')'wall_',NINT(time/filerNW_int)
    fileformat = '.q'
    
    open (22,file=TRIM('output2D/')//TRIM(filename)//fileformat,form='unformatted',access='stream')
