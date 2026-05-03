@@ -253,7 +253,7 @@ subroutine Updating_velocity()
 
 	if (time_stepping_by=='CFL') then
 		call MPI_ALLREDUCE( maxvel, maxvel_, 1, MPI_REAL8, MPI_MAX, MPI_COMM_WORLD, ierr )
-		dt = constant_cfl / maxvel_		! dt update for constant CFL
+		dt = MIN(constant_cfl / maxvel_,dzSml)		! dt update for constant CFL
 	endif
    
 end subroutine Updating_velocity
