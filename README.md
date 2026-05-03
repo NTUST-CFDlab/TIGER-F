@@ -49,6 +49,52 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 - [Chern et al., 2014 – VIV of a circular cylinder using DFIB method (2D)](https://doi.org/10.1016/j.jweia.2014.08.015)
 - [Noor et al., 2009 – An immersed boundary method to solve fluid–solid interaction problems (2D)](https://doi.org/10.1007/s00466-009-0384-5)
 
+
+## Version History
+
+03-05-2026 TIGER-F v4.0
+- Add energy transport for Conjugate heat transfer (CHT) and isothermal case
+
+25-04-2026 TIGER-F v3.4 
+- Add WALE subgrid scale model
+- Add mean normalization of Pressure in RB-SOR
+
+08-03-2026 TIGER-F v3.3
+- Add time stepping option with a constant CFL
+- Modify temporal scheme for variable dt
+- Fix binary format for large file output
+
+12-01-2025 TIGER-F v3.2
+- Apply dynamic relaxation factor for RB-SOR
+- Apply the enhanced VOS function
+- Offload & profiling VOS function, VOS ray2d, and VOS ray3D into GPU
+- Add simulation monitor & auto stop for diverged simulation
+- Add time history points prober
+
+30-10-2024 TIGER-F v3.1
+- Add mean TKE calculation 
+- Add option for dimensional simulation
+- Smagorinsky bug fix
+- Fix output formatting to support both ParaView and Tecplot compatibility.
+
+28-12-2023 TIGER-F v3.0
+- Apply GPU parallelization using a hybrid (MPI+OpenACC)
+- Offload all processes inside time loop into GPU
+- Apply Red-Black SOR (RB-SOR) to break data dependencies
+- Add mean TKE calculation 
+- Add the Two-way FSI
+
+06-10-2022 TIGER-F v2.0
+- Implement robust restart capabilities for interrupted simulations
+- Parallelize and optimize ray casting 3D with (MPI+OpenMP)
+- Adding filer variations for 2D and 3D outputs
+
+06-10-2022 TIGER-F v1.5
+- DFIB with a hybrid (MPI+OpenMP) parallelization
+
+
+
+
 ## License & Disclaimer
 
 This code is distributed **freely** for academic and non-commercial purposes.  
