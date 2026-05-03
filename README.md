@@ -12,6 +12,7 @@
     - **Third-order Adams–Bashforth** method is used for temporal advancement.
     - **Red–Black SOR (RB-SOR)** is employed as the pressure solver.
     - **Large Eddy Simulation (LES)** with a **Wall-adapting local eddy-viscosity (WALE)** model is used for turbulence modeling.
+    - **Thermal Solver**, supports fluid-solid thermal coupling (CHT) and fixed-temperature (isothermal) scenarios.
 
 - Solid domain construction via ray casting from STL geometry files.
 - Supports both constant time-step and constant CFL time-stepping modes.
