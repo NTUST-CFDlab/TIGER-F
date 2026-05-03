@@ -191,7 +191,7 @@ program main
     if (time_stepping_by=='DT') then
 		dt = constant_dt
 	else if(time_stepping_by=='CFL') then
-		dt = constant_cfl * lzSml/ nzSml / U_inf	!initial dt. dt is updated in calcul_new_velocity.f90
+		dt = MIN(constant_cfl * dzSml / U_inf,dzSml)	!initial dt. dt is updated in calcul_new_velocity.f90
 	endif
    
    call initial_conditions()        !call initial conditions
