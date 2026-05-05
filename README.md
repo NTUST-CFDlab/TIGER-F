@@ -79,11 +79,16 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 - Fix output formatting to support both ParaView and Tecplot compatibility.
 
 28-12-2023 TIGER-F v3.0
-- Apply GPU parallelization using a hybrid (MPI+OpenACC)
-- Offload all processes inside time loop into GPU
-- Apply Red-Black SOR (RB-SOR) to break data dependencies
+- Apply multi-GPU parallelization using a hybrid (MPI+OpenACC)
 - Add mean TKE calculation 
 - Add the Two-way FSI
+
+02-12-2023 TIGER-F v2.2
+- Offload all processes inside time loop into a single GPU process
+
+23-11-2023 TIGER-F v2.1
+- Apply Red-Black SOR (RB-SOR) to break data dependencies
+- Offload RB-SOR into a single GPU process
 
 06-10-2022 TIGER-F v2.0
 - Implement robust restart capabilities for interrupted simulations
