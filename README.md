@@ -31,6 +31,7 @@ This makes TIGER-F highly portable and scalable for both high-performance comput
 
 - Time dependent CFD simulations
 - General 3D rigid body FSI simulation in turbulent flows
+- Conjugate heat transfer
 
 ## Contributors
 
