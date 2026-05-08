@@ -31,7 +31,7 @@ This makes TIGER-F highly portable and scalable for both high-performance comput
 
 - Time dependent CFD simulations
 - General 3D rigid body FSI simulation in turbulent flows
-- Conjugate heat transfer
+- Heat transfer
 
 ## Contributors
 
@@ -54,8 +54,12 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 
 ## Version History
 
+08-05-2026 TIGER-F v4.1
+- Apply preprocessor directives for multi-compiler compatibility
+- Standardized floating-point precision using iso_fortran_env for improved portability
+
 03-05-2026 TIGER-F v4.0
-- Add energy transport for Conjugate heat transfer (CHT) and isothermal case
+- Add energy transport equations for heat transfer analysis
 
 25-04-2026 TIGER-F v3.4 
 - Add WALE subgrid scale model
