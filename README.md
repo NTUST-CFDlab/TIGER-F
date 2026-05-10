@@ -54,7 +54,8 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 
 ## Version History
 
-08-05-2026 TIGER-F v4.1
+10-05-2026 TIGER-F v4.1
+- Add option for advective (convective) outflow condition
 - Apply preprocessor directives for multi-compiler compatibility
 - Standardized floating-point precision using iso_fortran_env for improved portability
 
