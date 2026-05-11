@@ -55,6 +55,7 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 ## Version History
 
 10-05-2026 TIGER-F v4.1
+- Correct QUICK scheme for non-uniform staggered grid
 - Add option for advective (convective) outflow condition
 - Apply preprocessor directives for multi-compiler compatibility
 - Standardized floating-point precision using iso_fortran_env for improved portability
