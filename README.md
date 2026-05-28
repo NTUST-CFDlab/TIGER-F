@@ -16,7 +16,7 @@
 
 - Solid domain construction via ray casting from STL geometry files.
 - Supports both constant time-step and constant CFL time-stepping modes.
-- Performs time averaging of turbulence-related variables.
+- Performs time averaging of turbulence quantities.
 
 ## CPU and GPU Parallelization
 
