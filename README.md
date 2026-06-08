@@ -12,7 +12,7 @@
     - **Third-order Adams–Bashforth** method is used for temporal advancement.
     - **Red–Black SOR (RB-SOR)** is employed as the pressure solver.
     - **Large Eddy Simulation (LES)** with a **Wall-adapting local eddy-viscosity (WALE)** model is used for turbulence modeling.
-    - **Thermal Solver**, supports fluid-solid thermal coupling (CHT) and fixed-temperature (isothermal) scenarios.
+    - **Thermal Solver**, supports fluid-solid thermal coupling (CHT) with heat source, and fixed-temperature (isothermal) scenarios.
 
 - Solid domain construction via ray casting from STL geometry files.
 - Supports both constant time-step and constant CFL time-stepping modes.
@@ -57,6 +57,7 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 10-05-2026 TIGER-F v4.1
 - Correct QUICK scheme for non-uniform staggered grid
 - Add option for advective (convective) outflow condition
+- Add heat source term
 - Apply preprocessor directives for multi-compiler compatibility
 - Standardized floating-point precision using iso_fortran_env for improved portability
 
