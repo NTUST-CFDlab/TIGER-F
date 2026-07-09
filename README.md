@@ -55,7 +55,7 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 ## Version History
 
 10-07-2026 TIGER-F v4.2
-- Dropped compatibility with NVIDIA HPC SDK versions earlier than v24.5
+- Dropped compatibility with NVIDIA HPC SDK version 24.3 or earlier
 - Optimized the QUICK kernel
 
 10-05-2026 TIGER-F v4.1
