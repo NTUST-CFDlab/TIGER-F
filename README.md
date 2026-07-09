@@ -54,54 +54,58 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 
 ## Version History
 
+10-07-2026 TIGER-F v4.2
+- Dropped compatibility with NVIDIA HPC SDK versions earlier than v24.5
+- Optimized the QUICK kernel
+
 10-05-2026 TIGER-F v4.1
-- Correct QUICK scheme for non-uniform staggered grid
-- Add option for advective (convective) outflow condition
-- Add heat source term
-- Apply preprocessor directives for multi-compiler compatibility
+- Corrected QUICK scheme for non-uniform staggered grid
+- Added option for advective (convective) outflow condition
+- Added heat source term
+- Applied preprocessor directives for multi-compiler compatibility
 - Standardized floating-point precision using iso_fortran_env for improved portability
 
 03-05-2026 TIGER-F v4.0
-- Add energy transport equations for heat transfer analysis
+- Added energy transport equations for heat transfer analysis
 
 25-04-2026 TIGER-F v3.4 
-- Add WALE subgrid scale model
-- Add mean normalization of Pressure in RB-SOR
+- Added WALE subgrid scale model
+- Added mean normalization of Pressure in RB-SOR
 
 08-03-2026 TIGER-F v3.3
-- Add time stepping option with a constant CFL
-- Modify temporal scheme for variable dt
-- Fix binary format for large file output
+- Added time stepping option with a constant CFL
+- Modified temporal scheme for variable dt
+- Fixed binary format for large file output
 
 12-01-2025 TIGER-F v3.2
-- Apply dynamic relaxation factor for RB-SOR
-- Apply the enhanced VOS function
-- Offload & profiling VOS function, VOS ray2d, and VOS ray3D into GPU
-- Add simulation monitor & auto stop for diverged simulation
-- Add time history points prober
+- Applied dynamic relaxation factor for RB-SOR
+- Applied the enhanced VOS function
+- Offloaded VOS function, VOS ray2d, and VOS ray3D into GPU
+- Added simulation monitor & auto stop for diverged simulation
+- Added time history points prober
 
 30-10-2024 TIGER-F v3.1
-- Add mean TKE calculation 
-- Add option for dimensional simulation
-- Smagorinsky bug fix
-- Fix output formatting to support both ParaView and Tecplot compatibility.
+- Added mean TKE calculation 
+- Added option for dimensional simulation
+- Smagorinsky bug fixed
+- Fixed output formatting to support both ParaView and Tecplot compatibility.
 
 28-12-2023 TIGER-F v3.0
-- Apply multi-GPU parallelization using a hybrid (MPI+OpenACC)
-- Add mean TKE calculation 
-- Add the Two-way FSI
+- Applied multi-GPU parallelization using a hybrid (MPI+OpenACC)
+- Added mean TKE calculation 
+- Added the Two-way FSI
 
 02-12-2023 TIGER-F v2.2
-- Offload all processes inside time loop into a single GPU process
+- Offloaded all processes inside time loop into a single GPU process
 
 23-11-2023 TIGER-F v2.1
-- Apply Red-Black SOR (RB-SOR) to break data dependencies
-- Offload RB-SOR into a single GPU process
+- Applied Red-Black SOR (RB-SOR) to break data dependencies
+- Offloaded RB-SOR into a single GPU process
 
 06-10-2022 TIGER-F v2.0
-- Implement robust restart capabilities for interrupted simulations
-- Parallelize and optimize ray casting 3D with (MPI+OpenMP)
-- Adding filer variations for 2D and 3D outputs
+- Implemented robust restart capabilities for interrupted simulations
+- Parallelized and optimized ray casting 3D with (MPI+OpenMP)
+- Added filer variations for 2D and 3D outputs
 
 06-10-2022 TIGER-F v1.5
 - DFIB with a hybrid (MPI+OpenMP) parallelization
