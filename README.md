@@ -57,11 +57,12 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 10-07-2026 TIGER-F v4.2
 - Dropped compatibility with NVIDIA HPC SDK version 24.3 or earlier
 - Optimized the QUICK kernel
+- Added option to activate natural heat transfer
 
 10-05-2026 TIGER-F v4.1
 - Corrected QUICK scheme for non-uniform staggered grid
 - Added option for advective (convective) outflow condition
-- Added heat source term
+- Added option to activate heat source term
 - Applied preprocessor directives for multi-compiler compatibility
 - Standardized floating-point precision using iso_fortran_env for improved portability
 
