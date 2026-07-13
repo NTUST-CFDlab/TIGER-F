@@ -58,6 +58,7 @@ If you use TIGER-F in your research, please cite relevant publications such as:
 - Dropped compatibility with NVIDIA HPC SDK version 24.3 or earlier
 - Optimized the QUICK kernel
 - Added option to activate natural heat transfer
+- Fixed a bug in the Filer2Davg 
 
 10-05-2026 TIGER-F v4.1
 - Corrected QUICK scheme for non-uniform staggered grid
